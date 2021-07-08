@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  		<run>
+  			<include name="RED"></include>
+  			<include name="BLACK"></include>
+  			<exclude name="BLUE"></exclude>
+  		</run>
+  	</groups>
+  	
+  	
+    <classes>
+      <class name="com.testNG.Grouping_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

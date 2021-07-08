@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10299" started-at="2021-06-13T23:27:59 IST" finished-at="2021-06-13T23:28:09 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10299" started-at="2021-06-13T23:27:59 IST" finished-at="2021-06-13T23:28:09 IST">
+      <class name="com.testNG.Parallel_TestNG">
+        <test-method status="PASS" signature="twitter()[pri:0, instance:com.testNG.Parallel_TestNG@5bc79255]" name="twitter" duration-ms="5518" started-at="2021-06-13T23:27:59 IST" finished-at="2021-06-13T23:28:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitter -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:com.testNG.Parallel_TestNG@5bc79255]" name="facebook" duration-ms="10256" started-at="2021-06-13T23:27:59 IST" finished-at="2021-06-13T23:28:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+      </class> <!-- com.testNG.Parallel_TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
